@@ -14,6 +14,11 @@
     </div>
     <div v-show="personalNumber">
        Вашето лично число е: {{personalNumber}}
+      <div class="description-holder">
+        <hr/>
+        {{description}}
+        <hr/>
+      </div>
     </div>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
@@ -54,41 +59,30 @@ import datepicker from 'vue3-datepicker';
   components: {
     datepicker,
   },
-  watch: {
-    selectedDate: {
-      handler: 'handleDateChange',
-    },
-  },
 })
 export default class HelloWorld extends Vue {
   msg!: string;
 
-  selectedDate: Date = new Date();
-
-  personalNumber: string | false = false;
-
-  handleDateChange(newDate: Date): void {
-    const day = newDate.getDate();
-    const month = newDate.getMonth() + 1;
-    const year = newDate.getFullYear();
-    const numbers = [
-      ...day.toString().split('').map((num) => parseInt(num, 10)),
-      ...month.toString().split('').map((num) => parseInt(num, 10)),
-      ...year.toString().split('').map((num) => parseInt(num, 10)),
-    ];
-
-    const calculateSum = (input: number[]): string => input.reduce((acc, current) => {
-      const sum = acc + current;
-      return sum;
-    }, 0).toString(10);
-
-    let result = calculateSum(numbers);
-
-    while (result.length !== 1) {
-      result = calculateSum(result.split('').map((num) => parseInt(num, 10)));
+  get selectedDate(): Date {
+    const { selectedDate } = this.$store.state;
+    if (!selectedDate) {
+      return new Date();
     }
+    return selectedDate;
+  }
 
-    this.personalNumber = result;
+  set selectedDate(selectedDate: Date) {
+    this.$store.commit('updateDate', {
+      selectedDate,
+    });
+  }
+
+  get personalNumber(): string {
+    return this.$store.getters.personalNumber;
+  }
+
+  get description(): string {
+    return this.$store.getters.getDescription;
   }
 }
 </script>
@@ -108,5 +102,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.description-holder {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 </style>
