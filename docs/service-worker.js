@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/personalnumber/precache-manifest.b122faaf9050ea824231382c28107164.js"
+  "/personalnumber/precache-manifest.5c8907476c5b74abfd074440894e1fce.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "personalnumber"});

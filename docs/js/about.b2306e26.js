@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(t,e,a){"use strict";a.r(e);var n=a("7a23"),c={class:"about"},p=Object(n["h"])("p",null,[Object(n["g"])(" Авторът не претендира за оригиналност. Ако искаш нещо да му кажеш пробвай: "),Object(n["h"])("a",{target:"_blank",href:"https://t.me/philipmarlow"},"https://t.me/philipmarlow")],-1);function r(t,e){return Object(n["r"])(),Object(n["d"])("div",c,[p])}const o={};o.render=r;e["default"]=o}}]);
-//# sourceMappingURL=about.b2306e26.js.map
