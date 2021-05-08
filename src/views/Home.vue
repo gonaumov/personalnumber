@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Малко приложение за автоматично изчисляване на лично число"/>
+    <HelloWorld msg="A small application for automatic calculation of a personal number"/>
   </div>
 </template>
 

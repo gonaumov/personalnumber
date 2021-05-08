@@ -2,9 +2,9 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Това е малко приложение, с чиято помощ може да изчислите личното си число.
+      This is a small application with which you can calculate your personal number.
     </p>
-    <h3>Просто изберете вашата дата на раждане по-долу.</h3>
+    <h3>Just select your date of birth below. </h3>
     <div>
       <ul>
     <li><datepicker
@@ -13,7 +13,7 @@
       </ul>
     </div>
     <div v-show="personalNumber">
-       Вашето лично число е: {{personalNumber}}
+      Your personal number is:  {{personalNumber}}
       <div class="description-holder">
         <hr/>
         {{description}}

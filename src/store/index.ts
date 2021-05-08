@@ -37,39 +37,37 @@ export default createStore<Store>({
       }
       const result = parseInt(getters.personalNumber, 10);
       const descriptions: Record<string, string> = {
-        1: `Тези, които имат лично число 1 са амбициозни и пробивни. Те обичат да докарват нещата до край.
-Тяхната способност да се концентрират е невероятна и те са способни да се съсредоточат независимо от хаоса наоколо.
-Хората, които носят единицата, като лично число, обикновено са обективни, способни да взимат сериозни решения с лекота.
-Понякога тези хора са големи инати и егоцентрични. Когато им се постави точно определена цел, те я следват неотклонно,
-докато я изпълнят. В такъв случай, целта засенчва егото им и те загърбват идентичността си, само за да постигнат целта,
-която имат пред себе си. Това прави вибрацията на единицата успешна.
+        1: `Those who have a personal number 1 are ambitious and groundbreaking. They like to get things done.
+Their ability to concentrate is amazing and they are able to focus regardless of the chaos around them.
+People who wear the number as a personal number are usually objective, able to make serious decisions with ease.
+Sometimes these people are very stubborn and self-centered. When they are given a specific goal, they follow it steadily,
+while performing it. In that case, the goal overshadows their ego and they turn their backs on their identity just to achieve the goal,
+which they have in front of them. This makes the vibration of the unit successful.
         `,
         2: `
-        Тези, които имат лично число 2, са честни, може да има се има доверие и често сменят настроенията си. Тези хора са много талантливи и обикновено имат страшно много прекрасни идеи. Те често така ги разконцентрират, че се заемат с няколко неща наведнъж и това обикновено не води до добри резултати. Те често са философи и към тях може да се обърнете, когато имате нужда от искрен съвет. Притежателите на числото 2 са надарени с дарбата да събират хората заедно. Те са добри посредници при преговори.
+        Those who have a personal number 2 are honest, can be trusted and often change their moods. These people are very talented and usually have an awful lot of great ideas. They often become so distracted that they do several things at once, and this usually does not lead to good results. They are often philosophers and you can turn to them when you need honest advice. The owners of the number 2 are gifted with the gift to bring people together. They are good mediators in negotiations.
         `,
         3: `
-Хората с това число обикновено са щастливци. Те винаги са на точното място в точното време. Те също имат способността да взимат правилни решения. Те са изключително инициативни и интелигентни. Тези, които притежават това число са многокреативни и са много добри в комуникацията. Те могат да бъдат манипулативни, но често подбудите им са съвсем добри.
-        `,
+        People with this number are usually lucky. They are always in the right place at the right time. They also have the ability to make the right decisions. They are extremely enterprising and intelligent. Those who have this number are very creative and are very good at communication. They can be manipulative, but often their motives are quite good.
+       `,
         4: `
-
-
-Както може да очакваме, хората представители на 4-ката са стабилни и уравновесени натури. Те изпипват нещата. Ако някаква работа трябва да бъде свършена с точност в детайлите, те са хората, към които трябва да се обърнете. Те с лекота се справят с трудните проекти, предават ги сметодическа точност и навреме. Те се стремят да имат ред в живота си и понякога остават грешно разбрани. Това все пак не ги дразни толкова, защото те разбират важността на позицията си и ролята, която играят в живота на другите.
-        `,
+As we can expect, the people representing the 4 are stable and balanced natures. They tidy things up. If any work needs to be done accurately in detail, they are the people you need to turn to. They easily handle difficult projects, convey them with methodological accuracy and on time. They strive for order in their lives and sometimes remain misunderstood. However, this does not irritate them so much because they understand the importance of their position and the role they play in the lives of others.
+       `,
         5: `
-Хората, които притежават това число са много общителни и често играят активна роля в обществото. Те притежават висок дух и обичат да пътуват. Не си падат по рутината и се адаптират бърэо към нови ситуации. Те се справят спредизвикателствата с разум и нетрадиционни решения. 5тиците имат много проекти и идеи едновременно и докато се опитват да ги осъществяват, те се провалят в някои от тях, но това съвсем не ги тревожи и те продължават напред.
-        `,
+ People who have this number are very sociable and often play an active role in society. They have a high spirit and love to travel. They do not like the routine and adapt to new situations. They deal with challenges with common sense and unconventional solutions. The 5s have many projects and ideas at the same time and while trying to implement them, they fail in some of them, but this does not bother them at all and they move on.
+       `,
         6: `
-        Хората, които имат това число са креативни, но противоречиви и често е нужно да дават пояснения на действията си. Те са много добри в сметките и са много интелигентни и лесно намират общ език с хората. Тези хора са любители на хармонията и не харесват противопоставянето, затова предпочитат „да правят любов, а не война“. Те са пацифисти и приемат на сериозно ролята си на помощници и спасители на обществото.
-        `,
+        People who have this number are creative but controversial and often need to explain their actions. They are very good at accounts and are very intelligent and easily find common ground with people. These people are lovers of harmony and do not like opposition, so they prefer "to make love, not war." They are pacifists and take seriously their role as helpers and saviors of society.
+         `,
         7: `
-Хората, които го притежават са учени и поети. Те са много интелигентни и притежават невероятни аналитични умения. Въпреки това съзнанието им е в мечтите им, където те лесно могат да преместват нещата и събитията, така както искат. Тяхната реалност се различава твърде много от тази на останалите-това е реалност, която те самите са си създали. Тези хора имат способността да събират перфектните хора, места и събития в живота си, което ги води по пътя към непрекъснато обновление.
-        `,
+  The people who own it are scientists and poets. They are very intelligent and have amazing analytical skills. However, their consciousness is in their dreams, where they can easily move things and events as they wish. Their reality is very different from the others - this is a reality that they have created for themselves. These people have the ability to gather the perfect people, places and events in their lives, which leads them on the path to constant renewal.
+       `,
         8: `
-Хората, които имат лично число 8 са изключително успешни-главно в бизнес, в който успехът се основава на прогресът, на който му е нужно малко време. Тези хора са способни да предвиждат обстоятелствата и тенденциите и да са нагребена на вълната, което е техният голям успех. Те също така добре разбират, кога трябва да отклоняват предложения, заради особената си интуиция, която им позволява да видят цикличността на нещата. Притежателите на 8-цата са много добри на игри на късмета, както и на борсите на ценни книжа, както и всякакви сделки, чийто успех се базира на определена статистика.
-        `,
+  People who have a personal number 8 are extremely successful - mainly in a business where success is based on progress, which takes little time. These people are able to anticipate circumstances and trends and be piled on the wave, which is their great success. They also understand well when to turn down suggestions because of their special intuition, which allows them to see the cyclical nature of things. The owners of the 8 are very good at games of chance, as well as at stock exchanges, as well as any transactions, the success of which is based on certain statistics.
+      `,
         9: `
-        Тези, които притежават числото 9 са магнетични, чаровни и представят себе си с лекота и увереност. Те са запознати с безброй теми, и са готови да изразяват уменията си в привидно безброй арени. Когато имат поле за изява, тези хора създават невероятни подвизи при изпълнението си. Тези хора са много обаятелни и лесно ръководят групи от хора. Перфектни са за ръководители и властници, които биха управлявали разумно и мъдро.
-        `,
+  Those who own the number 9 are magnetic, charming and present themselves with ease and confidence. They are familiar with countless topics, and are ready to express their skills in seemingly countless arenas. When they have room to perform, these people create incredible feats in their performance. These people are very charming and easily lead groups of people. They are perfect for leaders and rulers who would govern wisely and wisely.
+               `,
       };
       if (result in descriptions) {
         return descriptions[result];
