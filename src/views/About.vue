@@ -1,9 +1,9 @@
 <template>
   <div class="about">
     <p>
-      Авторът не претендира за оригиналност.
-      Ако искаш нещо да му кажеш пробвай:
-      <a target="_blank" href="https://t.me/philipmarlow">https://t.me/philipmarlow</a>
+      The author does not claim originality.
+      If you want to tell him something try:
+      <a target="_blank" href="mailto:gonaumov@gmail.com">gonaumov@gmail.com</a>
     </p>
   </div>
 </template>
